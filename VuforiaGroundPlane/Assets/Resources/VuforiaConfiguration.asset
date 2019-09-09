@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QWYvN2xtMy8vLy8vQUFBQUtFWXAwTXIwWDBCSHNPZVFkNm43RlNtYzRWZzZOem1KakxHTWd2dXQ2M0hQcG5mN3I4MEVxYWxNVURPVnRzWFRjWEZVemFCMVErM0FFVEUyTW9pb0tRdElCb1dyRXZlMVdRSStmM2poTlJsVTQvTXYwdC9PQlVaNDJpcDVlVXdvQVlWNmgzRVJWQ3NpYWVYL1BtUjY1T05jV1NrdXg3VVE4eGNHZEFadVFYTHhjVEVQNkVPcmE3aTNBdjk3Umk4clVmc1dhakVDRGhNclc0N21tQkxXdG1MSmpvS0tVUHhXM0U4QjgvNXI3cmg1RmtxYUlaVzd4SjlMVFBNS1lsWGZOcm14eW9KaUxFYXhGWGtrakRGcERMTXVNeE9MMzVESTdGOGVSMXFtVlJIWnRvUGtnN3E5cWduc053bnRrU3g5QWZ5VTZWOThBQzdZUUs0dWVkeVlqa2JxbUlxRUJnbDhlRVViUjRhaWkrU1E=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
+    version: 8.1.7
+    eulaAcceptedVersions: '{"Values":["0.0","8.0","8.1"]}'
+  digitalEyewear:
+    cameraOffset: 0.06
+    distortionRenderingLayer: 31
+    eyewearType: 2
+    stereoFramework: 0
+    seeThroughConfiguration: 0
+    viewerName: Cardboard v1
+    viewerManufacturer: Google
+    useCustomViewer: 1
+    customViewer:
+      Version: 0
+      Name: TEST123
+      Manufacturer: 
+      ButtonType: 0
+      ScreenToLensDistance: 0.068
+      InterLensDistance: 0.06
+      TrayAlignment: 0
+      LensCenterToTrayDistance: 0.035
+      DistortionCoefficients: {x: 0.441, y: 0.156}
+      FieldOfView: {x: 90, y: 90, z: 90, w: 90}
+      ContainsMagnet: 0
+  database:
+    disableModelExtraction: 0
+  videoBackground:
+    clippingMode: 0
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 1
+    autoStartTracker: 1
+    trackingMode: 1
+    posePrediction: 0
+    modelCorrectionMode: 0
+    modelTransformEnabled: 0
+    modelTransform: {x: 0, y: 0.1, z: -0.1}
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: 
+    turnOffWebCam: 0
+    renderTextureLayer: 30

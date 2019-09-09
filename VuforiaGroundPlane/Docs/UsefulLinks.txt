@@ -1,0 +1,9 @@
+GroundPlane
+https://library.vuforia.com/articles/Solution/ground-plane-guide.html
+
+MR
+https://library.vuforia.com/articles/Solution/Integrating-Cardboard-to-the-ARVR-Sample.html
+
+Change Settings
+https://stackoverflow.com/questions/36978463/vuforia-digitaleyewearbehaviour-setting-changes-on-runtime-not-working
+
